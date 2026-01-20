@@ -1,3 +1,7 @@
+# Project 
+model/nano_vehicle/predictions.json
+predictions.json
+
 # Logs
 logs
 *.log
