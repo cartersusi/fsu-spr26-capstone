@@ -1,7 +1,5 @@
 from ultralytics import YOLO
 
-from ultralytics import YOLO
-
 def main():
     model = YOLO('yolov8n.pt')
     results = model.train(
