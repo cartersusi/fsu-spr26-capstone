@@ -1,7 +1,11 @@
 # FSU Spring 2026 Capstone
 
-## Support
-- [https://docs.ultralytics.com/guides/coral-edge-tpu-on-raspberry-pi/](https://docs.ultralytics.com/guides/coral-edge-tpu-on-raspberry-pi/)
+## Helpful Links
+#### [yolov8](https://yolov8.com/#what-is)
+
+#### [Model Inferencing](https://medium.com/@achyutpaudel50/yolov8-train-and-inference-detection-or-segmentation-on-custom-data-using-roboflow-481c8d27445d)
+
+#### [Video Processing](https://opencv.org/blog/reading-and-writing-videos-using-opencv/)
 
 ## Examples
 - [https://github.com/tawnkramer/CarND-Vehicle-Detection](https://github.com/tawnkramer/CarND-Vehicle-Detection)
