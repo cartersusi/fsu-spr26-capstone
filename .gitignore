@@ -1,6 +1,8 @@
 # Project 
 model/nano_vehicle/predictions.json
 predictions.json
+frames/
+*.mp4
 
 # Logs
 logs

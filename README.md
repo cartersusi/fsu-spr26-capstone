@@ -11,6 +11,12 @@
 - [https://github.com/tawnkramer/CarND-Vehicle-Detection](https://github.com/tawnkramer/CarND-Vehicle-Detection)
 - [https://www.youtube.com/watch?v=FdZvMoP0dRU](https://www.youtube.com/watch?v=FdZvMoP0dRU)
 
+## Training Data
+COCO did not perform well, try:
+- BDD100K — 100K driving videos, great for this exact use case
+- KITTI — classic autonomous driving dataset
+- Waymo Open Dataset — high quality, but large
+
 ## Hardware
 - Raspberry Pi 5 4Gb
 - Camera Module 3 - Wide NoIR
