@@ -3,6 +3,7 @@ model/nano_vehicle/predictions.json
 predictions.json
 frames/
 *.mp4
+.DS_Store
 
 # Logs
 logs
