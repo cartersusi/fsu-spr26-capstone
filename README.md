@@ -13,9 +13,12 @@
 
 ## Training Data
 COCO did not perform well, try:
-- BDD100K — 100K driving videos, great for this exact use case
-- KITTI — classic autonomous driving dataset
-- Waymo Open Dataset — high quality, but large
+- **BDD100K**:
+  - http://bdd-data.berkeley.edu/download.html
+    - `100k Images`
+    - `Labels`
+- **KITTI**
+- **Waymo Open Dataset**
 
 ## Hardware
 - Raspberry Pi 5 4Gb

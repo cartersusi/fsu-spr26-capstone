@@ -5,6 +5,12 @@ frames/
 *.mp4
 .DS_Store
 
+model/labels/*
+model/images/*
+model/labels_json_backup/*
+model/bdd100k_images_100k.zip
+model/bdd100k_labels.zip
+
 # Logs
 logs
 *.log
