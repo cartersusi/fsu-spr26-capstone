@@ -2,10 +2,11 @@ from ultralytics import YOLO
 
 
 def main():
-    model = YOLO("yolov8n.pt")
+    model = YOLO("bdd100k_vehicle_640/run/weights/last.pt")
 
     results = model.train(
         data="bdd100k.yaml",
+        resume=True,
         workers=8,
         epochs=300,
         imgsz=640,

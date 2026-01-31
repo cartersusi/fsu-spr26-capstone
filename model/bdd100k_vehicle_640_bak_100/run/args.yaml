@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: bdd100k_vehicle_640/run/weights/last.pt
+model: yolov8n.pt
 data: bdd100k.yaml
 epochs: 300
 time: null
@@ -24,7 +24,7 @@ single_cls: false
 rect: false
 cos_lr: true
 close_mosaic: 10
-resume: bdd100k_vehicle_640/run/weights/last.pt
+resume: false
 amp: true
 fraction: 1.0
 profile: false
