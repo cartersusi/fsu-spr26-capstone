@@ -1,0 +1,15 @@
+#!/bin/bash
+
+verify_serivce() {
+    # check status of dashcam.service
+
+    # if not enabled, enable it -> sudo systemctl enable dashcam.service
+}
+
+verify_files() {
+
+}
+
+run_tests() {
+
+}
