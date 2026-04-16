@@ -4,9 +4,21 @@ image_processing.light_level
 Determine the light level of an image 
 """
 
-from libcamera import controls
+try:
+    from libcamera import controls
+except ImportError:  
+    controls = None
+
+
+def _require_libcamera():
+    if controls is None:
+        raise RuntimeError(
+            "libcamera is not available in this environment. "
+            "Camera capture profiles require Raspberry Pi/libcamera support."
+        )
 
 def night_capture_conf(picam2, image_size, dispaly_size):
+    _require_libcamera()
     return picam2.create_video_configuration(
         main={"size": image_size, "format": "YUV420"},
         #lores={"size": dispaly_size, "format": "YUV420"} if show_preview else None,
@@ -24,6 +36,7 @@ def night_capture_conf(picam2, image_size, dispaly_size):
     )
 
 def day_capture_conf(picam2, image_size, dispaly_size):
+    _require_libcamera()
     return picam2.create_video_configuration(
         main={"size": image_size, "format": "YUV420"},
         #lores={"size": dispaly_size, "format": "YUV420"} if show_preview else None,
